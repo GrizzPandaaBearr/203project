@@ -1,0 +1,51 @@
+﻿<Page x:Class="_203project.Screens.FirstPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_203project.Screens"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="FirstPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Opacity="0.5" Stretch="Fill" ImageSource="/Images/Background2.jpg"/>
+        </Grid.Background>
+
+        <Button Width="125" Height="165" Margin="40,60,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <StackPanel>
+                <Image Source="/Images/Monas.jpg" Width="125" Height="165" Stretch="Fill" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Center" Height="165" Margin="0,60,0,0" VerticalAlignment="Top" Width="124">
+            <StackPanel>
+                <Image Source="/Images/TwinTower.jpg" Width="125" Height="165" Stretch="Fill"/>
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="165" Margin="644,60,0,0" VerticalAlignment="Top" Width="125">
+            <StackPanel>
+                <Image Source="/Images/GreatWall.jpg" Width="125" Height="165" Stretch="Fill"/>
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="165" Margin="192,264,0,0" VerticalAlignment="Top" Width="125">
+            <StackPanel>
+                <Image Source="/Images/Tajmahal.jpg" Width="125" Height="165" Stretch="Fill"/>
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="165" Margin="493,264,0,0" VerticalAlignment="Top" Width="125">
+            <StackPanel>
+                <Image Source="/Images/TwinTower.jpg" Width="125" Height="165" Stretch="Fill"/>
+            </StackPanel>
+        </Button>
+
+
+        
+
+        
+    </Grid>
+</Page>
